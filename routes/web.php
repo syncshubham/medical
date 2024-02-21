@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// this is the testing command
+
 Route::get('gittestroute', function () {
     return view('platform.layout');
 });
