@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('gittestroute', function () {
+    return view('platform.layout');
+});
+
 Route::get('/', function () {
     return view('platform.layout');
 });
