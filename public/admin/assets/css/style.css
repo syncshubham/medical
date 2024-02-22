@@ -960,7 +960,7 @@ button.bg-danger:hover {
     border-color: #1e88e5!important;
 }
 .btn-primary {
-	background-color: #1e88e5;
+	background-color:rgb(74, 105, 187);
     border: 1px solid #1e88e5;
 }
 .btn-primary:hover,
@@ -2529,7 +2529,7 @@ html.menu-opened body {
 }
 .login-wrapper .loginbox .login-left {
     align-items: center;
-    background: linear-gradient(180deg, #1879cd, #1e88e5);
+    background: linear-gradient(111.3deg, rgb(74, 105, 187) 9.6%, rgb(205, 77, 204) 93.6%);
     border-radius: 6px 0 0 6px;
     flex-direction: column;
     justify-content: center;
