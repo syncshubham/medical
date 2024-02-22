@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('reallyhritikroute', function () {
+    return view('platform.layout');
+});
 
 
 Route::get('/', function () {
