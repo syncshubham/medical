@@ -18,6 +18,12 @@ Route::get('/', function () {
     return view('platform.layout');
 });
 
+Route::get('testroute', function () {
+    return view('platform.layout');
+});
+
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
